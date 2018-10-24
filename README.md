@@ -5,7 +5,7 @@ A Visual Studio template for SDL projects.
 ## How to use
 
 1. Grab `SDL2_Project.zip` from the [latest release](https://github.com/Pharap/SDL2-Project-Template/releases/latest).
-2. Copy to either of:
+2. Copy to either of these folders (note: these are typically located in `%USERPROFILE%\Documents`):
   * `Visual Studio 2010\Templates\ProjectTemplates\`
   * `Visual Studio 2013\Templates\ProjectTemplates\`
   * `Visual Studio 2015\Templates\ProjectTemplates\`
