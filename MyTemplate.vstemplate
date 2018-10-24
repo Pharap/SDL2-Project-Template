@@ -1,0 +1,127 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+	<TemplateData>
+		<Name>SDL2 Project</Name>
+		<Description>A basic SDL 2.0 Project</Description>
+		<ProjectType>VC</ProjectType>
+		<ProjectSubType>
+		</ProjectSubType>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>SDL2 Project</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<Icon>__TemplateIcon.png</Icon>
+		<PreviewImage>__PreviewImage.png</PreviewImage>
+	</TemplateData>
+	<TemplateContent>
+		<Project TargetFileName="SDLTemplate.vcxproj" File="SDLTemplate.vcxproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">SDLTemplate.vcxproj.filters</ProjectItem>
+			<ProjectItem TargetFileName="main.cpp">main.cpp</ProjectItem>
+			<Folder Name="Include">
+				<ProjectItem>SDL.h</ProjectItem>
+				<Folder Name="SDL">
+					<ProjectItem>SDL.h</ProjectItem>
+					<ProjectItem>begin_code.h</ProjectItem>
+					<ProjectItem>close_code.h</ProjectItem>
+					<ProjectItem>SDL_assert.h</ProjectItem>
+					<ProjectItem>SDL_atomic.h</ProjectItem>
+					<ProjectItem>SDL_audio.h</ProjectItem>
+					<ProjectItem>SDL_bits.h</ProjectItem>
+					<ProjectItem>SDL_blendmode.h</ProjectItem>
+					<ProjectItem>SDL_clipboard.h</ProjectItem>
+					<ProjectItem>SDL_config.h</ProjectItem>
+					<ProjectItem>SDL_config.h.cmake</ProjectItem>
+					<ProjectItem>SDL_config.h.in</ProjectItem>
+					<ProjectItem>SDL_config_android.h</ProjectItem>
+					<ProjectItem>SDL_config_iphoneos.h</ProjectItem>
+					<ProjectItem>SDL_config_macosx.h</ProjectItem>
+					<ProjectItem>SDL_config_macosx.h.orig</ProjectItem>
+					<ProjectItem>SDL_config_minimal.h</ProjectItem>
+					<ProjectItem>SDL_config_pandora.h</ProjectItem>
+					<ProjectItem>SDL_config_psp.h</ProjectItem>
+					<ProjectItem>SDL_config_windows.h</ProjectItem>
+					<ProjectItem>SDL_config_winrt.h</ProjectItem>
+					<ProjectItem>SDL_config_wiz.h</ProjectItem>
+					<ProjectItem>SDL_copying.h</ProjectItem>
+					<ProjectItem>SDL_cpuinfo.h</ProjectItem>
+					<ProjectItem>SDL_egl.h</ProjectItem>
+					<ProjectItem>SDL_endian.h</ProjectItem>
+					<ProjectItem>SDL_error.h</ProjectItem>
+					<ProjectItem>SDL_events.h</ProjectItem>
+					<ProjectItem>SDL_filesystem.h</ProjectItem>
+					<ProjectItem>SDL_gamecontroller.h</ProjectItem>
+					<ProjectItem>SDL_gesture.h</ProjectItem>
+					<ProjectItem>SDL_haptic.h</ProjectItem>
+					<ProjectItem>SDL_hints.h</ProjectItem>
+					<ProjectItem>SDL_joystick.h</ProjectItem>
+					<ProjectItem>SDL_keyboard.h</ProjectItem>
+					<ProjectItem>SDL_keycode.h</ProjectItem>
+					<ProjectItem>SDL_loadso.h</ProjectItem>
+					<ProjectItem>SDL_log.h</ProjectItem>
+					<ProjectItem>SDL_main.h</ProjectItem>
+					<ProjectItem>SDL_messagebox.h</ProjectItem>
+					<ProjectItem>SDL_mouse.h</ProjectItem>
+					<ProjectItem>SDL_mutex.h</ProjectItem>
+					<ProjectItem>SDL_name.h</ProjectItem>
+					<ProjectItem>SDL_opengl.h</ProjectItem>
+					<ProjectItem>SDL_opengles.h</ProjectItem>
+					<ProjectItem>SDL_opengles2.h</ProjectItem>
+					<ProjectItem>SDL_opengles2_gl2.h</ProjectItem>
+					<ProjectItem>SDL_opengles2_gl2ext.h</ProjectItem>
+					<ProjectItem>SDL_opengles2_gl2platform.h</ProjectItem>
+					<ProjectItem>SDL_opengles2_khrplatform.h</ProjectItem>
+					<ProjectItem>SDL_opengl_glext.h</ProjectItem>
+					<ProjectItem>SDL_pixels.h</ProjectItem>
+					<ProjectItem>SDL_platform.h</ProjectItem>
+					<ProjectItem>SDL_power.h</ProjectItem>
+					<ProjectItem>SDL_quit.h</ProjectItem>
+					<ProjectItem>SDL_rect.h</ProjectItem>
+					<ProjectItem>SDL_render.h</ProjectItem>
+					<ProjectItem>SDL_revision.h</ProjectItem>
+					<ProjectItem>SDL_rwops.h</ProjectItem>
+					<ProjectItem>SDL_scancode.h</ProjectItem>
+					<ProjectItem>SDL_shape.h</ProjectItem>
+					<ProjectItem>SDL_stdinc.h</ProjectItem>
+					<ProjectItem>SDL_surface.h</ProjectItem>
+					<ProjectItem>SDL_system.h</ProjectItem>
+					<ProjectItem>SDL_syswm.h</ProjectItem>
+					<ProjectItem>SDL_test.h</ProjectItem>
+					<ProjectItem>SDL_test_assert.h</ProjectItem>
+					<ProjectItem>SDL_test_common.h</ProjectItem>
+					<ProjectItem>SDL_test_compare.h</ProjectItem>
+					<ProjectItem>SDL_test_crc32.h</ProjectItem>
+					<ProjectItem>SDL_test_font.h</ProjectItem>
+					<ProjectItem>SDL_test_fuzzer.h</ProjectItem>
+					<ProjectItem>SDL_test_harness.h</ProjectItem>
+					<ProjectItem>SDL_test_images.h</ProjectItem>
+					<ProjectItem>SDL_test_log.h</ProjectItem>
+					<ProjectItem>SDL_test_md5.h</ProjectItem>
+					<ProjectItem>SDL_test_memory.h</ProjectItem>
+					<ProjectItem>SDL_test_random.h</ProjectItem>
+					<ProjectItem>SDL_thread.h</ProjectItem>
+					<ProjectItem>SDL_timer.h</ProjectItem>
+					<ProjectItem>SDL_touch.h</ProjectItem>
+					<ProjectItem>SDL_types.h</ProjectItem>
+					<ProjectItem>SDL_version.h</ProjectItem>
+					<ProjectItem>SDL_video.h</ProjectItem>
+					<ProjectItem>SDL_vulkan.h</ProjectItem>
+				</Folder>
+			</Folder>
+			<Folder Name="Lib">
+				<Folder Name="x86">
+					<ProjectItem>SDL2.dll</ProjectItem>
+					<ProjectItem>SDL2.lib</ProjectItem>
+					<ProjectItem>SDL2main.lib</ProjectItem>
+					<ProjectItem>SDL2test.lib</ProjectItem>
+				</Folder>
+				<Folder Name="x64">
+					<ProjectItem>SDL2.dll</ProjectItem>
+					<ProjectItem>SDL2.lib</ProjectItem>
+					<ProjectItem>SDL2main.lib</ProjectItem>
+					<ProjectItem>SDL2test.lib</ProjectItem>
+				</Folder>
+			</Folder>
+		</Project>
+	</TemplateContent>
+</VSTemplate>
