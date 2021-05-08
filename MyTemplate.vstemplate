@@ -17,10 +17,12 @@
 	<TemplateContent>
 		<Project TargetFileName="SDLTemplate.vcxproj" File="SDLTemplate.vcxproj" ReplaceParameters="true">
 			<ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">SDLTemplate.vcxproj.filters</ProjectItem>
-			<ProjectItem TargetFileName="main.cpp">main.cpp</ProjectItem>
+			<ProjectItem TargetFileName="Main.cpp">Main.cpp</ProjectItem>
 			<Folder Name="Include">
 				<ProjectItem>SDL.h</ProjectItem>
+				<ProjectItem>SDL_ttf.h</ProjectItem>
 				<Folder Name="SDL">
+					<ProjectItem>SDL_ttf.h</ProjectItem>
 					<ProjectItem>SDL.h</ProjectItem>
 					<ProjectItem>begin_code.h</ProjectItem>
 					<ProjectItem>close_code.h</ProjectItem>
@@ -114,12 +116,20 @@
 					<ProjectItem>SDL2.lib</ProjectItem>
 					<ProjectItem>SDL2main.lib</ProjectItem>
 					<ProjectItem>SDL2test.lib</ProjectItem>
+					<ProjectItem>SDL2_ttf.dll</ProjectItem>
+					<ProjectItem>SDL2_ttf.lib</ProjectItem>
+					<ProjectItem>libfreetype-6.dll</ProjectItem>
+					<ProjectItem>zlib1.dll</ProjectItem>
 				</Folder>
 				<Folder Name="x64">
 					<ProjectItem>SDL2.dll</ProjectItem>
 					<ProjectItem>SDL2.lib</ProjectItem>
 					<ProjectItem>SDL2main.lib</ProjectItem>
 					<ProjectItem>SDL2test.lib</ProjectItem>
+					<ProjectItem>SDL2_ttf.dll</ProjectItem>
+					<ProjectItem>SDL2_ttf.lib</ProjectItem>
+					<ProjectItem>libfreetype-6.dll</ProjectItem>
+					<ProjectItem>zlib1.dll</ProjectItem>
 				</Folder>
 			</Folder>
 		</Project>

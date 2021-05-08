@@ -91,11 +91,14 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
     </Link>
     <PreBuildEvent>
       <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\SDL2.dll" "$(TargetDir)SDL2.dll"</Command>
+      <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\SDL2_ttf.dll" "$(TargetDir)SDL2_ttf.dll"</Command>
+      <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\zlib1.dll" "$(TargetDir)zlib1.dll"</Command>
+      <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\libfreetype-6.dll" "$(TargetDir)libfreetype-6.dll"</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -106,11 +109,14 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
     </Link>
     <PreBuildEvent>
       <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\SDL2.dll" "$(TargetDir)SDL2.dll"</Command>
+      <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\SDL2_ttf.dll" "$(TargetDir)SDL2_ttf.dll"</Command>
+      <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\zlib1.dll" "$(TargetDir)zlib1.dll"</Command>
+      <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\libfreetype-6.dll" "$(TargetDir)libfreetype-6.dll"</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -145,6 +151,8 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Include\SDL_ttf.h" />
+    <ClInclude Include="Include\SDL\SDL_ttf.h" />
     <ClInclude Include="Include\SDL.h" />
     <ClInclude Include="Include\SDL\begin_code.h" />
     <ClInclude Include="Include\SDL\close_code.h" />
@@ -231,15 +239,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Lib\x64\SDL2.dll" />
+    <None Include="Lib\x64\SDL2_ttf.dll" />
+    <None Include="Lib\x64\zlib1.dll" />
+    <None Include="Lib\x64\libfreetype-6.dll" />
     <None Include="Lib\x86\SDL2.dll" />
+    <None Include="Lib\x86\SDL2_ttf.dll" />
+    <None Include="Lib\x86\zlib1.dll" />
+    <None Include="Lib\x86\libfreetype-6.dll" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="Lib\x64\SDL2.lib" />
     <Library Include="Lib\x64\SDL2main.lib" />
     <Library Include="Lib\x64\SDL2test.lib" />
+    <Library Include="Lib\x64\SDL2_ttf.lib" />
     <Library Include="Lib\x86\SDL2.lib" />
     <Library Include="Lib\x86\SDL2main.lib" />
     <Library Include="Lib\x86\SDL2test.lib" />
+    <Library Include="Lib\x86\SDL2_ttf.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
