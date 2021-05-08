@@ -284,15 +284,24 @@
     <ClInclude Include="Include\SDL.h">
       <Filter>Header Files\Include</Filter>
     </ClInclude>
+    <ClInclude Include="Include\SDL\SDL_ttf.h">
+      <Filter>Header Files\Include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SDL_ttf.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="Lib\x86\SDL2test.lib">
-      <Filter>Resource Files\Lib\x86</Filter>
-    </Library>
     <Library Include="Lib\x86\SDL2.lib">
       <Filter>Resource Files\Lib\x86</Filter>
     </Library>
     <Library Include="Lib\x86\SDL2main.lib">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </Library>
+    <Library Include="Lib\x86\SDL2test.lib">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </Library>
+    <Library Include="Lib\x86\SDL2_ttf.lib">
       <Filter>Resource Files\Lib\x86</Filter>
     </Library>
     <Library Include="Lib\x64\SDL2.lib">
@@ -304,12 +313,33 @@
     <Library Include="Lib\x64\SDL2test.lib">
       <Filter>Resource Files\Lib\x64</Filter>
     </Library>
+    <Library Include="Lib\x64\SDL2_ttf.lib">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </Library>
   </ItemGroup>
   <ItemGroup>
     <None Include="Lib\x86\SDL2.dll">
       <Filter>Resource Files\Lib\x86</Filter>
     </None>
+    <None Include="Lib\x86\SDL2_ttf.dll">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </None>
+    <None Include="Lib\x86\zlib1.dll">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </None>
+    <None Include="Lib\x86\libfreetype-6.dll">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </None>
     <None Include="Lib\x64\SDL2.dll">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </None>
+    <None Include="Lib\x64\SDL2_ttf.dll">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </None>
+    <None Include="Lib\x64\zlib1.dll">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </None>
+    <None Include="Lib\x64\libfreetype-6.dll">
       <Filter>Resource Files\Lib\x64</Filter>
     </None>
   </ItemGroup>
