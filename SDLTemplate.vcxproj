@@ -95,17 +95,7 @@
       <SubSystem>Windows</SubSystem>
     </Link>
     <PreBuildEvent>
-      <Command>
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\SDL2.dll" "$(TargetDir)SDL2.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\SDL2_ttf.dll" "$(TargetDir)SDL2_ttf.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\zlib1.dll" "$(TargetDir)zlib1.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\libfreetype-6.dll" "$(TargetDir)libfreetype-6.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\SDL2_image.dll" "$(TargetDir)SDL2_image.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\libjpeg-9.dll" "$(TargetDir)libjpeg-9.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\libpng16-16.dll" "$(TargetDir)libpng16-16.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\libtiff-5.dll" "$(TargetDir)libtiff-5.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\libwebp-7.dll" "$(TargetDir)libwebp-7.dll"
-      </Command>
+      <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x86\*.dll" "$(TargetDir)*.dll"</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -120,17 +110,7 @@
       <SubSystem>Windows</SubSystem>
     </Link>
     <PreBuildEvent>
-      <Command>
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\SDL2.dll" "$(TargetDir)SDL2.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\SDL2_ttf.dll" "$(TargetDir)SDL2_ttf.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\zlib1.dll" "$(TargetDir)zlib1.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\libfreetype-6.dll" "$(TargetDir)libfreetype-6.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\SDL2_image.dll" "$(TargetDir)SDL2_image.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\libjpeg-9.dll" "$(TargetDir)libjpeg-9.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\libpng16-16.dll" "$(TargetDir)libpng16-16.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\libtiff-5.dll" "$(TargetDir)libtiff-5.dll"
-        COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\libwebp-7.dll" "$(TargetDir)libwebp-7.dll"
-      </Command>
+      <Command>COPY /Y "$(SolutionDir)$(SolutionName)\Lib\x64\*.dll" "$(TargetDir)*.dll"</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
