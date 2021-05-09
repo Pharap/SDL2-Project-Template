@@ -21,7 +21,9 @@
 			<Folder Name="Include">
 				<ProjectItem>SDL.h</ProjectItem>
 				<ProjectItem>SDL_ttf.h</ProjectItem>
+				<ProjectItem>SDL_image.h</ProjectItem>
 				<Folder Name="SDL">
+					<ProjectItem>SDL_image.h</ProjectItem>
 					<ProjectItem>SDL_ttf.h</ProjectItem>
 					<ProjectItem>SDL.h</ProjectItem>
 					<ProjectItem>begin_code.h</ProjectItem>
@@ -120,6 +122,12 @@
 					<ProjectItem>SDL2_ttf.lib</ProjectItem>
 					<ProjectItem>libfreetype-6.dll</ProjectItem>
 					<ProjectItem>zlib1.dll</ProjectItem>
+					<ProjectItem>SDL2_image.dll</ProjectItem>
+					<ProjectItem>SDL2_image.lib</ProjectItem>
+					<ProjectItem>libjpeg-9.dll</ProjectItem>
+					<ProjectItem>libpng16-16.dll</ProjectItem>
+					<ProjectItem>libtiff-5.dll</ProjectItem>
+					<ProjectItem>libwebp-7.dll</ProjectItem>
 				</Folder>
 				<Folder Name="x64">
 					<ProjectItem>SDL2.dll</ProjectItem>
@@ -130,6 +138,12 @@
 					<ProjectItem>SDL2_ttf.lib</ProjectItem>
 					<ProjectItem>libfreetype-6.dll</ProjectItem>
 					<ProjectItem>zlib1.dll</ProjectItem>
+					<ProjectItem>SDL2_image.dll</ProjectItem>
+					<ProjectItem>SDL2_image.lib</ProjectItem>
+					<ProjectItem>libjpeg-9.dll</ProjectItem>
+					<ProjectItem>libpng16-16.dll</ProjectItem>
+					<ProjectItem>libtiff-5.dll</ProjectItem>
+					<ProjectItem>libwebp-7.dll</ProjectItem>
 				</Folder>
 			</Folder>
 		</Project>
