@@ -290,6 +290,12 @@
     <ClInclude Include="Include\SDL_ttf.h">
       <Filter>Header Files\Include</Filter>
     </ClInclude>
+    <ClInclude Include="Include\SDL\SDL_image.h">
+      <Filter>Header Files\Include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SDL_image.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="Lib\x86\SDL2.lib">
@@ -304,6 +310,9 @@
     <Library Include="Lib\x86\SDL2_ttf.lib">
       <Filter>Resource Files\Lib\x86</Filter>
     </Library>
+    <Library Include="Lib\x86\SDL2_image.lib">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </Library>
     <Library Include="Lib\x64\SDL2.lib">
       <Filter>Resource Files\Lib\x64</Filter>
     </Library>
@@ -314,6 +323,9 @@
       <Filter>Resource Files\Lib\x64</Filter>
     </Library>
     <Library Include="Lib\x64\SDL2_ttf.lib">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </Library>
+    <Library Include="Lib\x64\SDL2_image.lib">
       <Filter>Resource Files\Lib\x64</Filter>
     </Library>
   </ItemGroup>
@@ -330,6 +342,21 @@
     <None Include="Lib\x86\libfreetype-6.dll">
       <Filter>Resource Files\Lib\x86</Filter>
     </None>
+    <None Include="Lib\x86\SDL2_image.dll">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </None>
+    <None Include="Lib\x86\libjpeg-9.dll">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </None>
+    <None Include="Lib\x86\libpng16-16.dll">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </None>
+    <None Include="Lib\x86\libtiff-5.dll">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </None>
+    <None Include="Lib\x86\libwebp-7.dll">
+      <Filter>Resource Files\Lib\x86</Filter>
+    </None>
     <None Include="Lib\x64\SDL2.dll">
       <Filter>Resource Files\Lib\x64</Filter>
     </None>
@@ -340,6 +367,21 @@
       <Filter>Resource Files\Lib\x64</Filter>
     </None>
     <None Include="Lib\x64\libfreetype-6.dll">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </None>
+    <None Include="Lib\x64\SDL2_image.dll">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </None>
+    <None Include="Lib\x64\libjpeg-9.dll">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </None>
+    <None Include="Lib\x64\libpng16-16.dll">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </None>
+    <None Include="Lib\x64\libtiff-5.dll">
+      <Filter>Resource Files\Lib\x64</Filter>
+    </None>
+    <None Include="Lib\x64\libwebp-7.dll">
       <Filter>Resource Files\Lib\x64</Filter>
     </None>
   </ItemGroup>
