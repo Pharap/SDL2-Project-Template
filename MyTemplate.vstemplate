@@ -35,9 +35,12 @@
 					<ProjectItem>SDL_blendmode.h</ProjectItem>
 					<ProjectItem>SDL_clipboard.h</ProjectItem>
 					<ProjectItem>SDL_config.h</ProjectItem>
+					<ProjectItem>SDL_config.h.cmake</ProjectItem>
+					<ProjectItem>SDL_config.h.in</ProjectItem>
 					<ProjectItem>SDL_config_android.h</ProjectItem>
 					<ProjectItem>SDL_config_iphoneos.h</ProjectItem>
 					<ProjectItem>SDL_config_macosx.h</ProjectItem>
+					<ProjectItem>SDL_config_macosx.h.orig</ProjectItem>
 					<ProjectItem>SDL_config_minimal.h</ProjectItem>
 					<ProjectItem>SDL_config_pandora.h</ProjectItem>
 					<ProjectItem>SDL_config_psp.h</ProjectItem>
