@@ -35,12 +35,9 @@
 					<ProjectItem>SDL_blendmode.h</ProjectItem>
 					<ProjectItem>SDL_clipboard.h</ProjectItem>
 					<ProjectItem>SDL_config.h</ProjectItem>
-					<ProjectItem>SDL_config.h.cmake</ProjectItem>
-					<ProjectItem>SDL_config.h.in</ProjectItem>
 					<ProjectItem>SDL_config_android.h</ProjectItem>
 					<ProjectItem>SDL_config_iphoneos.h</ProjectItem>
 					<ProjectItem>SDL_config_macosx.h</ProjectItem>
-					<ProjectItem>SDL_config_macosx.h.orig</ProjectItem>
 					<ProjectItem>SDL_config_minimal.h</ProjectItem>
 					<ProjectItem>SDL_config_pandora.h</ProjectItem>
 					<ProjectItem>SDL_config_psp.h</ProjectItem>
@@ -62,9 +59,12 @@
 					<ProjectItem>SDL_keyboard.h</ProjectItem>
 					<ProjectItem>SDL_keycode.h</ProjectItem>
 					<ProjectItem>SDL_loadso.h</ProjectItem>
+					<ProjectItem>SDL_locale.h</ProjectItem>
 					<ProjectItem>SDL_log.h</ProjectItem>
 					<ProjectItem>SDL_main.h</ProjectItem>
 					<ProjectItem>SDL_messagebox.h</ProjectItem>
+					<ProjectItem>SDL_metal.h</ProjectItem>
+					<ProjectItem>SDL_misc.h</ProjectItem>
 					<ProjectItem>SDL_mouse.h</ProjectItem>
 					<ProjectItem>SDL_mutex.h</ProjectItem>
 					<ProjectItem>SDL_name.h</ProjectItem>
@@ -85,6 +85,7 @@
 					<ProjectItem>SDL_revision.h</ProjectItem>
 					<ProjectItem>SDL_rwops.h</ProjectItem>
 					<ProjectItem>SDL_scancode.h</ProjectItem>
+					<ProjectItem>SDL_sensor.h</ProjectItem>
 					<ProjectItem>SDL_shape.h</ProjectItem>
 					<ProjectItem>SDL_stdinc.h</ProjectItem>
 					<ProjectItem>SDL_surface.h</ProjectItem>

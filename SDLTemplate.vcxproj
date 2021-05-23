@@ -150,9 +150,9 @@
     <ClInclude Include="Include\SDL_ttf.h" />
     <ClInclude Include="Include\SDL\SDL_ttf.h" />
     <ClInclude Include="Include\SDL.h" />
+    <ClInclude Include="Include\SDL\SDL.h" />
     <ClInclude Include="Include\SDL\begin_code.h" />
     <ClInclude Include="Include\SDL\close_code.h" />
-    <ClInclude Include="Include\SDL\SDL.h" />
     <ClInclude Include="Include\SDL\SDL_assert.h" />
     <ClInclude Include="Include\SDL\SDL_atomic.h" />
     <ClInclude Include="Include\SDL\SDL_audio.h" />
@@ -184,9 +184,12 @@
     <ClInclude Include="Include\SDL\SDL_keyboard.h" />
     <ClInclude Include="Include\SDL\SDL_keycode.h" />
     <ClInclude Include="Include\SDL\SDL_loadso.h" />
+    <ClInclude Include="Include\SDL\SDL_locale.h" />
     <ClInclude Include="Include\SDL\SDL_log.h" />
     <ClInclude Include="Include\SDL\SDL_main.h" />
     <ClInclude Include="Include\SDL\SDL_messagebox.h" />
+    <ClInclude Include="Include\SDL\SDL_metal.h" />
+    <ClInclude Include="Include\SDL\SDL_misc.h" />
     <ClInclude Include="Include\SDL\SDL_mouse.h" />
     <ClInclude Include="Include\SDL\SDL_mutex.h" />
     <ClInclude Include="Include\SDL\SDL_name.h" />
@@ -207,6 +210,7 @@
     <ClInclude Include="Include\SDL\SDL_revision.h" />
     <ClInclude Include="Include\SDL\SDL_rwops.h" />
     <ClInclude Include="Include\SDL\SDL_scancode.h" />
+    <ClInclude Include="Include\SDL\SDL_sensor.h" />
     <ClInclude Include="Include\SDL\SDL_shape.h" />
     <ClInclude Include="Include\SDL\SDL_stdinc.h" />
     <ClInclude Include="Include\SDL\SDL_surface.h" />
