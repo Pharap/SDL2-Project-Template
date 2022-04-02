@@ -107,6 +107,9 @@
     <ClInclude Include="Include\SDL\SDL_loadso.h">
       <Filter>Header Files\Include\SDL</Filter>
     </ClInclude>
+    <ClInclude Include="Include\SDL\SDL_locale.h">
+      <Filter>Header Files\Include\SDL</Filter>
+    </ClInclude>
     <ClInclude Include="Include\SDL\SDL_log.h">
       <Filter>Header Files\Include\SDL</Filter>
     </ClInclude>
@@ -114,6 +117,12 @@
       <Filter>Header Files\Include\SDL</Filter>
     </ClInclude>
     <ClInclude Include="Include\SDL\SDL_messagebox.h">
+      <Filter>Header Files\Include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SDL\SDL_metal.h">
+      <Filter>Header Files\Include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SDL\SDL_misc.h">
       <Filter>Header Files\Include\SDL</Filter>
     </ClInclude>
     <ClInclude Include="Include\SDL\SDL_mouse.h">
@@ -174,6 +183,9 @@
       <Filter>Header Files\Include\SDL</Filter>
     </ClInclude>
     <ClInclude Include="Include\SDL\SDL_scancode.h">
+      <Filter>Header Files\Include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SDL\SDL_sensor.h">
       <Filter>Header Files\Include\SDL</Filter>
     </ClInclude>
     <ClInclude Include="Include\SDL\SDL_shape.h">
